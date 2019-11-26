@@ -1,0 +1,16 @@
+{
+  "components": {
+    "header": {
+      "logoURL": "https://css-tricks.com/wp-content/uploads/2018/01/nick-headshot-square-80x80.jpg"
+    },
+    "hero": {
+      "title": "Gatsby Cloud",
+      "videoURL": "",
+      "button": {
+        "title": "",
+        "url": ""
+      }
+    },
+    "sections": [""]
+  }
+}
