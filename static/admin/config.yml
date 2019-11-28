@@ -14,11 +14,10 @@ collections:
       - { name: path, label: Path, widget: String }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title, widget: markdown }
-      - { 
-         name: body, 
-         label: Body, 
+      -  name: body,
+         label: Body,
          widget: 'object',
          fields:
-              - { name: path, label: Path, widget: number }
-        }
+           - { name: path, label: Path, widget: number  }
+        
          
