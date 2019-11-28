@@ -6,12 +6,12 @@ public_folder: assets
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: src/pages/blogs
     create: true
     extension: json
     format: json
     fields:
-      - { name: path, label: Path, widget: String }
+      - { name: path, label: Path, widget: 'string' }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title, widget: markdown }
       -  name: body
