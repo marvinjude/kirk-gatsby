@@ -3,6 +3,7 @@ backend:
   repo: marvinjude/kirk-gatsby
 media_folder: static/assets
 extension: json
+format: json
 public_folder: assets
 collections:
   - name: blog
