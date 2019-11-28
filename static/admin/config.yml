@@ -2,14 +2,14 @@ backend:
   name: github
   repo: marvinjude/kirk-gatsby
 media_folder: static/assets
-extension: json
-format: json
 public_folder: assets
 collections:
   - name: blog
     label: Blog
     folder: blog
     create: true
+    extension: json
+    format: json
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
