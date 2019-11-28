@@ -11,9 +11,9 @@ collections:
     extension: json
     format: json
     fields:
-      - { name: path, label: Path }
+      - { name: path, label: Path, widget: String }
       - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
+      - { name: title, label: Title, widget: markdown }
       - { 
          name: body, 
          label: Body, 
